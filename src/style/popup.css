@@ -1,0 +1,161 @@
+
+.box{
+    position: fixed;
+    background-color: rgba(0, 0,0, 0.5);
+    left:0;
+    top:0;
+    width: 100%;
+    height:100vh;
+    z-index: 7;
+    overflow: scroll;
+}
+.main {
+    position: relative;
+    overflow: auto;
+    background-color:
+        #F3F3F3;
+    padding: 46px 32px 46px 32px;
+    width: 50%;
+    min-height: 300px;
+    margin:20px auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.main h1 {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.lable {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.must-fill::after{
+    content: "*";
+    color: #18C4EE;
+}
+
+.custom-input {
+    border: 1px solid #AEAEAE;
+    padding: 4px 0 4px 12px;
+    border-radius: 4px;
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    background: #F3F3F3;
+    width: 100%;
+    height: 28px;
+}
+
+
+.hashtag {
+    background: #FFFFFF;
+    border-radius: 80px;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-right: 8px;
+}
+
+.hashtag span {
+    color: #18C4EE;
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    margin-right: 8px;
+    margin-left: 6px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.hashtag i {
+    color: red;
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    background: #F3F3F3;
+    border: 1px solid #AEAEAE;
+    border-radius: 4px;
+    height: 150px;
+    margin-bottom: 30px;
+    
+}
+
+.textarea-count {
+    position: absolute;
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #18C4EE;
+    top: 124px;
+    left: 87%;
+}
+
+button {
+    border: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #18C4EE;
+    background-color: #F3F3F3;
+    height: 25px;
+}
+
+.exit button:first-child {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #545454;
+}
+.exit button:last-child {
+    background: #18C4EE;
+border-radius: 4px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #F3EEEE;
+width: 80px;
+}
+
+.lg-input-high{
+    width: 65%;
+}
+
+.lg-input-low{
+    width: 20%;
+}
+
+.feature-item-pop img{
+    margin-left: -30px;
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 996px){
+    .box{
+        min-width: 300px;
+        overflow: auto;
+    }
+    .sm-input-high{
+        width: 100%;
+        margin-bottom: 13px;
+    }
+
+    .sm-input-low{
+        width: 40%;
+    }
+}
